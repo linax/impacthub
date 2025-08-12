@@ -72,7 +72,7 @@ export default function HomePage() {
                   Transforma. Conecta. Impacta.
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Merchandising Corporativo con <span className="text-secondary">Impacto Social</span> Medible
+                  Merchandising Corporativo con <span className="text-corporate-blue">Impacto Social</span> Medible
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   Convierte cada regalo corporativo en una historia de transformación social. Productos únicos creados
@@ -102,7 +102,7 @@ export default function HomePage() {
                   <div className="text-sm text-muted-foreground">Empresas Confiando</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-secondary">1,200+</div>
+                  <div className="text-2xl font-bold text-corporate-blue">1,200+</div>
                   <div className="text-sm text-muted-foreground">Artistas Beneficiados</div>
                 </div>
                 <div className="text-center">
@@ -133,7 +133,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold">
-              Más que Merchandising, es <span className="text-secondary">Transformación Social</span>
+              Más que Merchandising, es <span className="text-corporate-blue">Transformación Social</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Cada producto que adquieres genera impacto medible en la vida de personas con síndrome de Down y sus
@@ -195,7 +195,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold">
-              Productos con <span className="text-accent">Propósito</span>
+              Productos con <span className="text-energy-orange">Propósito</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Merchandising premium que cuenta historias de transformación y conecta emocionalmente con tus
@@ -219,7 +219,7 @@ export default function HomePage() {
               </div>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <ShoppingBag className="h-5 w-5 text-secondary" />
+                  <ShoppingBag className="h-5 w-5 text-corporate-blue" />
                   Bolsas Premium
                 </CardTitle>
                 <CardDescription>
@@ -282,7 +282,7 @@ export default function HomePage() {
               </div>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Heart className="h-5 w-5 text-secondary" />
+                  <Heart className="h-5 w-5 text-corporate-blue" />
                   Colección Completa
                 </CardTitle>
                 <CardDescription>Sets personalizados para campañas corporativas de gran impacto.</CardDescription>
