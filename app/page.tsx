@@ -29,7 +29,7 @@ export default function HomePage() {
                 alt="ImpactHub Corporate"
                 width={200}
                 height={60}
-                className="h-10 w-auto"
+                className="h-16 w-auto"
               />
             </div>
             <nav className="hidden md:flex items-center space-x-8">
@@ -252,7 +252,7 @@ export default function HomePage() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
               <div className="aspect-square relative overflow-hidden rounded-t-lg">
                 <Image
-                  src="/placeholder-tb31p.png"
+                  src="/art-notebook.png"
                   alt="Libretas de Arte"
                   width={300}
                   height={300}
