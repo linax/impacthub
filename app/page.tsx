@@ -270,6 +270,24 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
+            <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
+              <div className="aspect-square relative overflow-hidden rounded-t-lg">
+                <Image
+                  src="/placeholder-sw6e4.png"
+                  alt="Colección Completa"
+                  width={300}
+                  height={300}
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Heart className="h-5 w-5 text-corporate-blue" />
+                  Colección Completa
+                </CardTitle>
+                <CardDescription>Sets personalizados para campañas corporativas de gran impacto.</CardDescription>
+              </CardHeader>
+            </Card>
 
             <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
               <div className="aspect-square relative overflow-hidden rounded-t-lg">
@@ -343,7 +361,7 @@ export default function HomePage() {
                 alt="ImpactHub Corporate"
                 width={200}
                 height={60}
-                className="h-10 w-auto brightness-0 invert"
+                className="h-10 w-auto"
               />
               <p className="text-gray-400">Transformando el merchandising corporativo en impacto social medible.</p>
             </div>
