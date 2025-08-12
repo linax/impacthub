@@ -288,6 +288,25 @@ export default function HomePage() {
                 <CardDescription>Sets personalizados para campañas corporativas de gran impacto.</CardDescription>
               </CardHeader>
             </Card>
+
+            <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
+              <div className="aspect-square relative overflow-hidden rounded-t-lg">
+                <Image
+                  src="/complete-collection.png"
+                  alt="Colección Completa"
+                  width={300}
+                  height={300}
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Heart className="h-5 w-5 text-corporate-blue" />
+                  Colección Completa
+                </CardTitle>
+                <CardDescription>Sets personalizados para campañas corporativas de gran impacto.</CardDescription>
+              </CardHeader>
+            </Card>
           </div>
 
           <div className="text-center mt-12">
