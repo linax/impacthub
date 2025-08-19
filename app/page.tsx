@@ -323,15 +323,15 @@ export default function HomePage() {
                   <CardHeader className="text-center pb-4">
                     <div className="w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center">
                       <Image
-                        src="/fundacion-esperanza-logo.png"
-                        alt="Fundación Esperanza"
+                        src="/logo_cuc.png"
+                        alt="Centro UC Síndrome de Down"
                         width={60}
                         height={60}
                         className="rounded-full"
                       />
                     </div>
-                    <CardTitle className="text-xl text-corporate-blue">Fundación Esperanza</CardTitle>
-                    <Badge className="bg-primary/10 text-primary">Bogotá, Colombia</Badge>
+                    <CardTitle className="text-xl text-corporate-blue">Centro UC Síndrome de Down</CardTitle>
+                    <Badge className="bg-primary/10 text-primary">Ñuñoa, Región Metropolitana</Badge>
                   </CardHeader>
                   <CardContent className="text-center space-y-3">
                     <CardDescription className="text-base">
@@ -356,15 +356,15 @@ export default function HomePage() {
                   <CardHeader className="text-center pb-4">
                     <div className="w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center">
                       <Image
-                        src="/fundacion-inclusion-logo.png"
-                        alt="Centro de Inclusión Activa"
+                        src="/logo_complementa.png"
+                        alt="Fundación Complementa"
                         width={60}
                         height={60}
                         className="rounded-full"
                       />
                     </div>
-                    <CardTitle className="text-xl text-corporate-blue">Centro de Inclusión Activa</CardTitle>
-                    <Badge className="bg-secondary/10 text-secondary">Medellín, Colombia</Badge>
+                    <CardTitle className="text-xl text-corporate-blue">Fundación Complementa</CardTitle>
+                    <Badge className="bg-secondary/10 text-secondary">Lo Barnechea, Región Metropolitana</Badge>
                   </CardHeader>
                   <CardContent className="text-center space-y-3">
                     <CardDescription className="text-base">
@@ -396,7 +396,7 @@ export default function HomePage() {
                       />
                     </div>
                     <CardTitle className="text-xl text-corporate-blue">Fundación Arte y Vida</CardTitle>
-                    <Badge className="bg-accent/10 text-accent">Cali, Colombia</Badge>
+                    <Badge className="bg-accent/10 text-accent">Valdivia, Los Ríos</Badge>
                   </CardHeader>
                   <CardContent className="text-center space-y-3">
                     <CardDescription className="text-base">
@@ -428,7 +428,7 @@ export default function HomePage() {
                       />
                     </div>
                     <CardTitle className="text-xl text-corporate-blue">Fundación Futuro Brillante</CardTitle>
-                    <Badge className="bg-primary/10 text-primary">Barranquilla, Colombia</Badge>
+                    <Badge className="bg-primary/10 text-primary">Valparaíso</Badge>
                   </CardHeader>
                   <CardContent className="text-center space-y-3">
                     <CardDescription className="text-base">
@@ -461,7 +461,7 @@ export default function HomePage() {
                       />
                     </div>
                     <CardTitle className="text-xl text-corporate-blue">Unidos por la Inclusión</CardTitle>
-                    <Badge className="bg-secondary/10 text-secondary">Bucaramanga, Colombia</Badge>
+                    <Badge className="bg-secondary/10 text-secondary">Puyehue, Los Lagos</Badge>
                   </CardHeader>
                   <CardContent className="text-center space-y-3">
                     <CardDescription className="text-base">
@@ -490,8 +490,8 @@ export default function HomePage() {
                   <div className="text-muted-foreground">Personas Beneficiadas</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-3xl font-bold text-secondary">5</div>
-                  <div className="text-muted-foreground">Ciudades de Colombia</div>
+                  <div className="text-3xl font-bold text-secondary">4</div>
+                  <div className="text-muted-foreground">Ciudades de Chile</div>
                 </div>
                 <div className="space-y-2">
                   <div className="text-3xl font-bold text-accent">41</div>
