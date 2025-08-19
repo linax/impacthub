@@ -301,6 +301,208 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Partner Foundations Carousel */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-3xl lg:text-5xl font-bold">
+              Nuestras <span className="text-corporate-blue">Fundaciones Aliadas</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Trabajamos de la mano con organizaciones comprometidas con la inclusión y el desarrollo de personas con
+              síndrome de Down.
+            </p>
+          </div>
+
+          <div className="relative">
+            {/* Carousel Container */}
+            <div className="overflow-hidden">
+              <div className="flex space-x-8 animate-scroll">
+                {/* Foundation 1 */}
+                <Card className="min-w-[300px] border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+                  <CardHeader className="text-center pb-4">
+                    <div className="w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center">
+                      <Image
+                        src="/fundacion-esperanza-logo.png"
+                        alt="Fundación Esperanza"
+                        width={60}
+                        height={60}
+                        className="rounded-full"
+                      />
+                    </div>
+                    <CardTitle className="text-xl text-corporate-blue">Fundación Esperanza</CardTitle>
+                    <Badge className="bg-primary/10 text-primary">Bogotá, Colombia</Badge>
+                  </CardHeader>
+                  <CardContent className="text-center space-y-3">
+                    <CardDescription className="text-base">
+                      Especializada en programas de arte terapia y desarrollo de habilidades artísticas para jóvenes con
+                      síndrome de Down.
+                    </CardDescription>
+                    <div className="flex justify-center space-x-4 text-sm">
+                      <div className="text-center">
+                        <div className="font-bold text-primary">150+</div>
+                        <div className="text-muted-foreground">Beneficiarios</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="font-bold text-secondary">8</div>
+                        <div className="text-muted-foreground">Años</div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Foundation 2 */}
+                <Card className="min-w-[300px] border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+                  <CardHeader className="text-center pb-4">
+                    <div className="w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center">
+                      <Image
+                        src="/fundacion-inclusion-logo.png"
+                        alt="Centro de Inclusión Activa"
+                        width={60}
+                        height={60}
+                        className="rounded-full"
+                      />
+                    </div>
+                    <CardTitle className="text-xl text-corporate-blue">Centro de Inclusión Activa</CardTitle>
+                    <Badge className="bg-secondary/10 text-secondary">Medellín, Colombia</Badge>
+                  </CardHeader>
+                  <CardContent className="text-center space-y-3">
+                    <CardDescription className="text-base">
+                      Enfocada en capacitación laboral y desarrollo de habilidades para la vida independiente.
+                    </CardDescription>
+                    <div className="flex justify-center space-x-4 text-sm">
+                      <div className="text-center">
+                        <div className="font-bold text-primary">200+</div>
+                        <div className="text-muted-foreground">Beneficiarios</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="font-bold text-secondary">12</div>
+                        <div className="text-muted-foreground">Años</div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Foundation 3 */}
+                <Card className="min-w-[300px] border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+                  <CardHeader className="text-center pb-4">
+                    <div className="w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center">
+                      <Image
+                        src="/fundacion-arte-logo.png"
+                        alt="Fundación Arte y Vida"
+                        width={60}
+                        height={60}
+                        className="rounded-full"
+                      />
+                    </div>
+                    <CardTitle className="text-xl text-corporate-blue">Fundación Arte y Vida</CardTitle>
+                    <Badge className="bg-accent/10 text-accent">Cali, Colombia</Badge>
+                  </CardHeader>
+                  <CardContent className="text-center space-y-3">
+                    <CardDescription className="text-base">
+                      Promueve la expresión artística como herramienta de inclusión social y desarrollo personal.
+                    </CardDescription>
+                    <div className="flex justify-center space-x-4 text-sm">
+                      <div className="text-center">
+                        <div className="font-bold text-primary">120+</div>
+                        <div className="text-muted-foreground">Beneficiarios</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="font-bold text-secondary">6</div>
+                        <div className="text-muted-foreground">Años</div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Foundation 4 */}
+                <Card className="min-w-[300px] border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+                  <CardHeader className="text-center pb-4">
+                    <div className="w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center">
+                      <Image
+                        src="/fundacion-futuro-logo.png"
+                        alt="Fundación Futuro Brillante"
+                        width={60}
+                        height={60}
+                        className="rounded-full"
+                      />
+                    </div>
+                    <CardTitle className="text-xl text-corporate-blue">Fundación Futuro Brillante</CardTitle>
+                    <Badge className="bg-primary/10 text-primary">Barranquilla, Colombia</Badge>
+                  </CardHeader>
+                  <CardContent className="text-center space-y-3">
+                    <CardDescription className="text-base">
+                      Programas integrales de educación, arte y emprendimiento para jóvenes con discapacidad
+                      intelectual.
+                    </CardDescription>
+                    <div className="flex justify-center space-x-4 text-sm">
+                      <div className="text-center">
+                        <div className="font-bold text-primary">180+</div>
+                        <div className="text-muted-foreground">Beneficiarios</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="font-bold text-secondary">10</div>
+                        <div className="text-muted-foreground">Años</div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Foundation 5 */}
+                <Card className="min-w-[300px] border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+                  <CardHeader className="text-center pb-4">
+                    <div className="w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center">
+                      <Image
+                        src="/fundacion-unidos-logo.png"
+                        alt="Fundación Unidos por la Inclusión"
+                        width={60}
+                        height={60}
+                        className="rounded-full"
+                      />
+                    </div>
+                    <CardTitle className="text-xl text-corporate-blue">Unidos por la Inclusión</CardTitle>
+                    <Badge className="bg-secondary/10 text-secondary">Bucaramanga, Colombia</Badge>
+                  </CardHeader>
+                  <CardContent className="text-center space-y-3">
+                    <CardDescription className="text-base">
+                      Red de apoyo familiar y programas de inserción laboral para personas con síndrome de Down.
+                    </CardDescription>
+                    <div className="flex justify-center space-x-4 text-sm">
+                      <div className="text-center">
+                        <div className="font-bold text-primary">90+</div>
+                        <div className="text-muted-foreground">Beneficiarios</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="font-bold text-secondary">5</div>
+                        <div className="text-muted-foreground">Años</div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
+            {/* Impact Summary */}
+            <div className="mt-12 text-center">
+              <div className="grid md:grid-cols-3 gap-8 max-w-2xl mx-auto">
+                <div className="space-y-2">
+                  <div className="text-3xl font-bold text-primary">740+</div>
+                  <div className="text-muted-foreground">Personas Beneficiadas</div>
+                </div>
+                <div className="space-y-2">
+                  <div className="text-3xl font-bold text-secondary">5</div>
+                  <div className="text-muted-foreground">Ciudades de Colombia</div>
+                </div>
+                <div className="space-y-2">
+                  <div className="text-3xl font-bold text-accent">41</div>
+                  <div className="text-muted-foreground">Años de Experiencia Conjunta</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary"></div>

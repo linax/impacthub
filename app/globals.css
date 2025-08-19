@@ -180,4 +180,18 @@
   .border-energy-orange {
     border-color: var(--energy-orange);
   }
+
+  /* Adding smooth scrolling animation for foundations carousel */
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 }
